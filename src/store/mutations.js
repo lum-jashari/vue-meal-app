@@ -1,4 +1,4 @@
 export function setSearchedMeals(state, meals) {
-    console.log("mutations");
+    console.log("inside mutations");
     state.searchedMeals = meals;
 }
