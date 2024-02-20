@@ -15,9 +15,7 @@
             :key="meal.idMeal"
             class="bg-white shadow rounded-xl"
         >
-            <router-link
-                :to="{ name: 'mealDetails', params: { id: meal.idMeal } }"
-            >
+            <router-link to="/">
                 <img
                     :src="meal.strMealThumb"
                     :alt="meal.strMeal"
@@ -50,7 +48,7 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 const keyword = ref("");
-const meals = computed(() => store.state.searchedMeals);
+const meals = computed(() => store.state.default.searchedMeals);
 
 function searchMeals() {
     store.dispatch("searchMeals", keyword.value);
