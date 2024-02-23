@@ -2,11 +2,10 @@ import Navbar from './Navbar.vue'
 
 <template>
     <navbar />
-    <div class="bg-gray-100 h-full">
-        <main>
-            <router-view />
-        </main>
-    </div>
+
+    <main>
+        <router-view />
+    </main>
 </template>
 
 <script setup>

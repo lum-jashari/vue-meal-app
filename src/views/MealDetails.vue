@@ -43,7 +43,7 @@
             <div class="mt-4">
                 <YouTubeButton :href="meal.strYoutube">Youtube</YouTubeButton>
                 <a
-                    href="meal.strSource"
+                    :href="meal.strSource"
                     target="_blank"
                     class="ml-3 px-3 py-2 border-2 border-transparent text-indigo-600 rounded"
                 >

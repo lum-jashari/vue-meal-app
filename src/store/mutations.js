@@ -1,9 +1,12 @@
 export function setSearchedMeals(state, meals) {
-    state.searchedMeals = meals;
+    console.log("inside mutations");
+    state.searchedMeals = meals || [];
 }
 export function setMealsByLetter(state, meals) {
-    state.mealsByLetter = meals;
+    console.log("inside mutations");
+    state.mealsByLetter = meals || [];
 }
 export function setMealsByIngredients(state, meals) {
-    state.mealsByIngredient = meals;
+    console.log("inside mutations");
+    state.mealsByIngredient = meals || [];
 }
