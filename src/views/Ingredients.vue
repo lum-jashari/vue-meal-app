@@ -20,7 +20,6 @@
             <h3 class="text-2xl font-bold mb-2">
                 {{ ingredient.strIngredient }}
             </h3>
-            <p>{{ ingredient.strDescription }}</p>
         </router-link>
     </div>
 </template>
