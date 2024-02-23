@@ -4,7 +4,7 @@
             type="text"
             name="meals"
             v-model="keyword"
-            class="rounded border-2 bg-white border-gray-200 w-full"
+            class="rounded border-2 mb-4 bg-white border-gray-200 w-full focus:ring-orange-500 focus:border-orange-500"
             placeholder="search for meals "
             @change="searchMeals"
         />
@@ -12,11 +12,11 @@
     <Meals :meals="meals" />
 </template>
 <script setup>
-import { computed } from "@vue/reactivity";
 import store from "../store";
+import Meals from "../components/Meals.vue";
+import { computed } from "@vue/reactivity";
 import { onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
-import Meals from "../components/Meals.vue";
 
 const route = useRoute();
 const keyword = ref("");
