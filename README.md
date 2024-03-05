@@ -4,10 +4,10 @@ This repository contains a simple Vue.js application that I built while learning
 
 ## Features
 
--   **Component-based Architecture:** The app follows a modular structure, with each feature encapsulated within its own Vue component.
--   **Data Binding:** Utilizes Vue's reactive data binding to update the UI dynamically based on user interactions.
--   **Routing:** Implements Vue Router for client-side routing, allowing seamless navigation between different views.
--   **Styling:** Uses Tailwind for styling components.
+- **Component-based Architecture:** The app follows a modular structure, with each feature encapsulated within its own Vue component.
+- **Data Binding:** Utilizes Vue's reactive data binding to update the UI dynamically based on user interactions.
+- **Routing:** Implements Vue Router for client-side routing, allowing seamless navigation between different views.
+- **Styling:** Uses Tailwind for styling components.
 
 ## Installation
 
@@ -15,29 +15,33 @@ To run this app locally, follow these steps:
 
 1. Clone this repository to your local machine.
 
-    ```bash
-    git clone https://github.com/your-username/vue-learning-app.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/vue-learning-app.git
+   ```
 
 2. Navigate to the project directory.
 
-    ```bash
-    cd vue-learning-app
-    ```
+   ```bash
+   cd vue-learning-app
+   ```
 
 3. Install dependencies using npm or yarn.
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 4. Run the development server.
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 5. Open your web browser and navigate to `http://localhost:3000` to view the app.
+
+## Usage
+
+![vue-meal-app screenshot](public/vue-meal-app.jpg?raw=true "Vue meal App")
 
 ## Usage
 
