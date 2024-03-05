@@ -39,7 +39,7 @@ To run this app locally, follow these steps:
 
 5. Open your web browser and navigate to `http://localhost:3000` to view the app.
 
-## Usage
+## Screenshots
 
 ![vue-meal-app screenshot](public/vue-meal-app.jpg?raw=true "Vue meal App")
 
