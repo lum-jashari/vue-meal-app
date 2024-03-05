@@ -16,13 +16,13 @@ To run this app locally, follow these steps:
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/vue-learning-app.git
+   git clone https://github.com/lum-jashari/vuejs-search-meals.git
    ```
 
 2. Navigate to the project directory.
 
    ```bash
-   cd vue-learning-app
+   cd vuejs-search-meals
    ```
 
 3. Install dependencies using npm or yarn.
